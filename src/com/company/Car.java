@@ -19,15 +19,16 @@ public class Car {
             this.model=model;
         }
 
-        if(sSuv=true){
-            if(hp<=500 && isEuropean=false){
+        if(sSuv==true){
+            if(hp<=500 && isEuropean==false){
                 this.sSuv=sSuv;
             }
         }
 
-        if(type="coupe"){
+        if(type=="coupe"){
             if(doorsNumber<=3){
                 this.type=type;}
+        this.type=type;
         }
 
         if(hp<=1000){
